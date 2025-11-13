@@ -36,7 +36,7 @@ public class AtGoodMarket {
 	                scanner.close();
 	                break;  // Sortie de la boucle infinie
 	            default:
-	                System.out.println("Choix invalide, réessayez.");
+	                System.out.println("Choix invalide, réessayez");
 	        }
 	    }
 	}
