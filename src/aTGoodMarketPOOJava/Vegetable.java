@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Vegetable extends Product {
 
-    public Vegetable(String name, double unitPrice, double stockQuantity, LocalDate pickingDate) {
-        super(name, unitPrice, stockQuantity, pickingDate, 7); 
+    public Vegetable(String name, double unitPrice, double stockQuantity, LocalDate pickingDate, int shelfLifeDays) {
+        super(name, unitPrice, stockQuantity, pickingDate, shelfLifeDays); 
     }
 
     @Override
