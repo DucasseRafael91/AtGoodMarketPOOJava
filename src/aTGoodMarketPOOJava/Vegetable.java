@@ -2,9 +2,9 @@ package aTGoodMarketPOOJava;
 
 import java.time.LocalDate;
 
-public class Fruit extends Product {
+public class Vegetable extends Product {
 
-    public Fruit(String name, double unitPrice, double stockQuantity, LocalDate pickingDate) {
+    public Vegetable(String name, double unitPrice, double stockQuantity, LocalDate pickingDate) {
         super(name, unitPrice, stockQuantity, pickingDate, 7); 
     }
 
@@ -15,7 +15,6 @@ public class Fruit extends Product {
 
     @Override
     public String toString() {
-        return "Fruit : " + super.toString();
+        return "Legume : " + super.toString();
     }
-
 }
