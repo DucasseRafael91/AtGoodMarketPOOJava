@@ -34,7 +34,7 @@ public class AtGoodMarket {
 	            case 3:
 	                System.out.println("Au revoir");
 	                scanner.close();
-	                break;  // Sortie de la boucle infinie
+	                break;  
 	            default:
 	                System.out.println("Choix invalide, réessayez");
 	        }
